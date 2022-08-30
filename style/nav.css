@@ -1,0 +1,38 @@
+nav li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: brown;
+    font-size: 25px;
+}
+
+nav li:hover {
+    background-color: lightgray;
+}
+
+nav>ul {
+    display: flex;
+    padding: 20px;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+}
+
+.ajar ul,
+.ajar>ul>li {
+    padding: 0%;
+    margin: 0;
+}
+
+.ajar:hover>ul {
+    display: block;
+    background-color: white;
+    /* padding: 0 40px; */
+    /* margin: 20px; */
+
+}
